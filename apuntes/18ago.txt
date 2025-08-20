@@ -1,0 +1,22 @@
+REPL
+Welcome to Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5).
+Type :help for assistance.
+  1> let message = ("Hola mundo!")
+message: String = "Hola mundo!"
+  2> print(message)
+Hola mundo!
+  3> let message2 = ("Hello World!")
+message2: String = "Hello World!"
+  4> print(message2)
+Hello World!
+  5> :quit
+
+import UIKit
+
+var mensaje = "Hello, world"
+
+print(mensaje)
+
+let score: Float = 1.0
+
+print(type(of: score))
